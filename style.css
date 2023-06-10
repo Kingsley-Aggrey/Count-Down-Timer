@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+
+.deactivate{
+    display: none;
+}
+
+#c-container{
+    margin: 0;
+}
+
+@media only screen and (min-width: 350px) {
+    body{
+        background-image: url("images/vals.jpg");
+        background-position:center;
+        background-size: cover;
+        width: 100%;
+        min-height: 100vh;
+        margin: 0;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .counter-container{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    h1{
+        font-size: 4rem;
+        text-align: center;
+    }
+    
+    .countDownEl{
+        margin:  0;
+        padding-top: 20px;
+        text-align: center;
+        margin: 0 1rem;
+    }
+    
+    .countDownEl span{
+        font-size: 1rem;
+    }
+    
+    .big-text{
+        font-size: 3rem;
+        margin:  0;
+    }
+    
+    .btn-Container{
+        margin-top: 6.5rem;
+    }
+    
+    button{
+        font-size: large;
+        margin: 1rem;
+        width: 8rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: aquamarine;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+}
+
+body{
+    background-image: url("images/vals.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.countDownEl{
+    margin:  0;
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 1.3rem;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.countDownEl span{
+    font-size: 1rem;
+}
+
+.big-text{
+    font-size: 6rem;
+    margin:  0;
+}
+
+.btn-Container{
+    margin-top: 6.5rem;
+}
+
+button{
+    font-size: larger;
+    margin: 1.5rem;
+    font-weight: 700;
+    width: 8rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(0, 225, 255);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
